@@ -1,0 +1,27 @@
+#app {
+    width: 100%;
+    display: -webkit-flex; 
+    display: flex; 
+}
+
+.app-wrap {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    padding: 20px;
+}
+
+/*tablet, pc*/
+@media (min-width: 768px) {
+    .app {
+        width: 768px;
+    }
+}
+
+/*phone*/
+@media (max-width: 768px) {
+    .app {
+        width: 100%;
+    }
+}
